@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- $Revision: 1.5 $ -->
+<!-- $Author: dallas $ -->
+<!-- EN-Revision: 1.4 Maintainer: dallas Status: ready -->
+  <refentry id="function.array-multisort">
+   <refnamediv>
+    <refname>array_multisort</refname>
+    <refpurpose>对多个数组或多维数组进行排序</refpurpose>
+   </refnamediv>
+   <refsect1>
+    <title>说明</title>
+     <methodsynopsis>
+      <type>bool</type><methodname>array_multisort</methodname>
+      <methodparam><type>array</type><parameter>ar1</parameter></methodparam>
+      <methodparam choice="opt"><type>mixed</type><parameter>arg</parameter></methodparam>
+      <methodparam choice="opt"><type>mixed</type><parameter>...</parameter></methodparam>
+      <methodparam choice="opt"><type>array</type><parameter>...</parameter></methodparam>
+     </methodsynopsis>
+    <para>
+     <function>array_multisort</function> 可以用来一次对多个数组进行排序或者根据某一维对多维数组进行排序。排序时保留原有的键名关联。
+    </para>
+    <para>
+     输入数组被当成一个表的列并以行来排序 － 这类似于 SQL 的 ORDER BY
+     子句的功能。第一个数组是要排序的主要数组。数组中的行（值）比较为相同的话就按照下一个输入数组中相应值的大小来排序，依此类推。
+    </para>
+    <para>
+     本函数的参数结构有些不同寻常，但是非常灵活。第一个参数必须是一个数组。接下来的每个参数可以是数组或者是下面列出的排序标志。
+    </para>
+    <para>
+     排序顺序标志：
+     <itemizedlist>
+      <listitem>
+       <simpara>SORT_ASC - 按照上升顺序排序</simpara>
+      </listitem>
+      <listitem>
+       <simpara>SORT_DESC - 按照下降顺序排序</simpara>
+      </listitem>
+     </itemizedlist>
+    </para>
+    <para>
+     排序类型标志：
+     <itemizedlist>
+      <listitem>
+       <simpara>SORT_REGULAR - 将项目按照通常方法比较</simpara>
+      </listitem>
+      <listitem>
+       <simpara>SORT_NUMERIC - 将项目按照数值比较</simpara>
+      </listitem>
+      <listitem>
+       <simpara>SORT_STRING - 将项目按照字符串比较</simpara>
+      </listitem>
+     </itemizedlist>
+    </para>
+    <para>
+     每个数组之后不能指定两个同类的排序标志。每个数组后指定的排序标志仅对该数组有效，默认值为
+     SORT_ASC 和 SORT_REGULAR。
+    </para>
+    <para>
+     &return.success;
+    </para>
+    <para>
+     <example>
+      <title>对多个数组排序</title>
+      <programlisting role="php">
+<![CDATA[
+$ar1 = array ("10", 100, 100, "a");
+$ar2 = array (1, 3, "2", 1);
+array_multisort ($ar1, $ar2);
+]]>
+      </programlisting>
+     </example>
+    </para>
+    <para>
+     本例中经过排序后，第一个数组将包含
+     10，"a"，100，100。第二个数组将包含
+     1，1，"2"，3。第二个数组中的项目顺序完全和第一个数组中相应的项目（100 和 100）顺序一致。
+    </para>
+    <para>
+     <example>
+      <title>对多维数组排序</title>
+      <programlisting role="php">
+<![CDATA[
+$ar = array (array ("10", 100, 100, "a"), array (1, 3, "2", 1));
+array_multisort ($ar[0], SORT_ASC, SORT_STRING,
+                 $ar[1], SORT_NUMERIC, SORT_DESC);
+]]>
+      </programlisting>
+     </example>
+    </para>
+    <para>
+     本例中经过排序后，第一个数组将包含
+     10，100，100，"a"（作为字符串上升排序），第二个数组将包含
+     1，3，"2"，1（作为数值下降排序）。
+    </para>
+    <para>
+     【译者注】本函数相当有用，为有助于理解，请看下面这个例子：
+    </para>
+    <para>
+     <example>
+      <title>名次排列</title>
+      <programlisting role="php">
+<![CDATA[
+$grade = array("score" => array(70, 95, 70.0, 60, "70"),
+               "name" => array("Zhang San", "Li Si", "Wang Wu",
+                               "Zhao Liu", "Liu Qi"));
+array_multisort($grade["score"], SORT_NUMERIC, SORT_DESC,
+                // 将分数作为数值，由高到低排序
+                $grade["name"], SORT_STRING, SORT_ASC);
+                // 将名字作为字符串，由小到大排序
+var_dump($grade);
+]]>
+      </programlisting>
+      <para>
+       上例输出结果如下：
+       <screen role="php">
+<![CDATA[
+array(2) {
+  ["score"]=>
+  array(5) {
+    [0]=>
+    int(95)
+    [1]=>
+    string(2) "70"
+    [2]=>
+    float(70)
+    [3]=>
+    int(70)
+    [4]=>
+    int(60)
+  }
+  ["name"]=>
+  array(5) {
+    [0]=>
+    string(5) "Li Si"
+    [1]=>
+    string(6) "Liu Qi"
+    [2]=>
+    string(7) "Wang Wu"
+    [3]=>
+    string(9) "Zhang San"
+    [4]=>
+    string(8) "Zhao Liu"
+  }
+}
+]]>
+       </screen>
+       本例中对包含成绩的数组 <varname>$grade</varname>
+       按照分数（score）由高到低进行排序，分数相同的人则按照名字（name）由小到大排序。排序后李四
+       95 分为第一名，赵六 60 分为第五名没有异议。张三、王五和刘七都是
+       70 分，他们的名次则由其姓名的字母顺序排列，Liu 在前，Wang 在后而
+       Zhang 在最后。为了区别，三个 70
+       分分别用了整数，浮点数和字符串来表示，可以在程序输出中清楚地看到它们排序的结果。
+      </para>
+     </example>
+    </para>
+   </refsect1>
+  </refentry>
+
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: sgml
+sgml-omittag:t
+sgml-shorttag:t
+sgml-minimize-attributes:nil
+sgml-always-quote-attributes:t
+sgml-indent-step:1
+sgml-indent-data:t
+indent-tabs-mode:nil
+sgml-parent-document:nil
+sgml-default-dtd-file:"../../../../manual.ced"
+sgml-exposed-tags:nil
+sgml-local-catalogs:nil
+sgml-local-ecat-files:nil
+End:
+vim600: syn=xml fen fdm=syntax fdl=2 si
+vim: et tw=78 syn=sgml
+vi: ts=1 sw=1
+-->
