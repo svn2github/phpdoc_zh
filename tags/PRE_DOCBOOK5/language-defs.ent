@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding="gb2312"?>
+<!-- $Revision$ -->
+<!-- $Author$ -->
+<!-- EN-Revision: 1.30 Maintainer: yincheng Status: ready -->
+<!-- Part titles used mostly in manual.xml itself -->
+<!ENTITY PHPManual         "PHP 手册">
+<!ENTITY Date              "日期：">
+<!ENTITY GettingStarted    "入门指引">
+<!ENTITY InstallAndConfigure "安装与配置">
+<!ENTITY Installation      "安装">
+<!ENTITY LanguageReference "语言参考">
+<!ENTITY Features          "特点">
+<!ENTITY Security          "安全">
+<!ENTITY FunctionReference "函数参考">
+<!ENTITY PECLReference     "PECL 函数参考">
+<!ENTITY AddOnReference    "附加扩展函数参考">
+<!ENTITY Appendices        "附录">
+<!ENTITY PEAR              "PEAR：PHP 扩展与应用资源库">
+<!ENTITY FAQ               "FAQ：常见问题">
+<!ENTITY FAQabbrev         "FAQ">
+<!ENTITY Internals         "PHP 和 Zend 引擎内部资料">
+<!ENTITY ZendAPI           "Zend API：深入 PHP 内核">
+<!ENTITY FunctionIndex     "函数索引">
+<!ENTITY CHMEdition        "CHM 版本">
+<!ENTITY ReservedConstants "预定义常量">
+<!ENTITY MissingStuff      "补充说明">
+<!ENTITY AndSeveralOthers  "其他贡献者">
+<!ENTITY Version           "版本">
+<!ENTITY Description       "说明">
+<!ENTITY Changeable        "可修改范围">
+<!ENTITY ConfigureOptions  "配置选项">
+<!ENTITY Default           "默认">
+<!ENTITY Definition        "定义">
+<!ENTITY Functions         "函数">
+<!ENTITY Name              "名字">
+<!ENTITY Alias             "别名">
+
+<!-- These are used in reference/$extname/reference.xml and other
+supplemental files to mark section titles -->
+<!ENTITY reftitle.changelog    '<title>更新日志</title>'>
+<!ENTITY reftitle.classes      '<title>预定义类</title>'>
+<!ENTITY reftitle.constants    '<title>预定义常量</title>'>
+<!ENTITY reftitle.constructor  '<title>构造函数</title>'>
+<!ENTITY reftitle.description  '<title>说明</title>'>
+<!ENTITY reftitle.examples     '<title>范例</title>'>
+<!ENTITY reftitle.exceptions   '<title>异常</title>'>
+<!ENTITY reftitle.errors       '<title>错误／异常</title>'>
+<!ENTITY reftitle.install      '<title>安装</title>'>
+<!ENTITY reftitle.intro        '<title>简介</title>'>
+<!ENTITY reftitle.methods      '<title>方法</title>'>
+<!ENTITY reftitle.parameters   '<title>参数</title>'>
+<!ENTITY reftitle.properties   '<title>属性</title>'>
+<!ENTITY reftitle.required     '<title>需求</title>'>
+<!ENTITY reftitle.resources    '<title>资源类型</title>'>
+<!ENTITY reftitle.runtime      '<title>运行时配置</title>'>
+<!ENTITY reftitle.returnvalues '<title>返回值</title>'>
+<!ENTITY reftitle.seealso      '<title>参见</title>'>
+<!ENTITY reftitle.notes        '<title>注释</title>'>
+<!-- Entities needed in Chinese Manual -->
+<!ENTITY url.php.dochowto-zh "http://cvs.php.net/phpdoc-zh/howto/howto_zh_cn.html.tar.gz">
