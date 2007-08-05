@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!DOCTYPE translation SYSTEM "../dtds/translation.dtd">
+<!-- $Id: translation.xml,v 1.143 2007-06-23 13:32:40 bjori Exp $ -->
+<translation xmlns="http://docbook.org/ns/docbook">
+
+ <intro>
+  PHP 文档简体中文翻译工作由简体中文翻译小组负责，成员见下表。<br />
+  有关问题及翻译工作情况请访问 <a href="http://news.php.net/group.php?group=php.doc.zh">php.doc.zh 讨论组</a>。
+ </intro>
+
+ <chmindex>
+  This file is generated at :<datetime /> by Verdana.<br />
+ </chmindex>
+
+ <translators>
+  <person name="王远之" email="dallas@php.net"      nick="dallas"    cvs="yes" />
+  <person name="肖理达" email="nio@php.net"         nick="nio"       cvs="yes" />
+  <person name="肖盛文"	email="yincheng@php.net"    nick="yincheng"  cvs="yes" />
+  <person name="黄啸宇" email="class007@php.net"    nick="class007"  cvs="yes" />
+  <person name="宋琪"   email="gregory@php.net"     nick="Gregory"   cvs="yes" />
+  <person name="陈伯乐" email="bole.Chen@gmail.com" nick="Avenger"   cvs="yes" />
+  <person name="刘铭"   email="lm92@php.net"        nick="lm92"      cvs="yes" />
+  <person name="崔岩"   email="cysoft@php.net"      nick="cysoft"    cvs="yes" />
+  <person name="穆少磊" email="verdana@php.net"     nick="verdana"   cvs="yes" />
+  <person name="李达"   email="thomaslio@php.net"   nick="thomaslio" cvs="yes" />
+  <person name="周皓"   email="zhouhao007@php.net"  nick="micky"     cvs="yes" />
+  <person name="孙翯"   email="yorgo@php.net"       nick="yorgo"     cvs="yes" />
+  <person name="容毓"   email="phpvcn@gmail.com"    nick="esayr"     cvs="yes" />
+ </translators>
+
+ <work-in-progress>
+<!--
+
+本文件内容仅用于 revcheck 中，为更加明确，暂按照以下方式填写：
+
+<file name="目前工作内容"    person="昵称" type="目前工作状态"
+ date="开始日期" revision="目前工作范围" />
+
+-->
+  <file name="更新过期文件"            person="dallas"   type="更新中"    date="2005-08-08"  revision="所有过期文件" />
+  <file name="language/oop5/*"         person="lm92"     type="更新中"    date="2007-05-10" />
+  <file name="更新过期文件"            person="yincheng" type="暂停"      date="2005-07-05" />
+  <file name="翻译部分新文件"          person="class007" type="暂停"      date="2005-04-17" />
+  <file name="更新过期文件"            person="Avenger"  type="更新中"    date="2006-04-19" />
+
+ </work-in-progress>
+
+</translation>
