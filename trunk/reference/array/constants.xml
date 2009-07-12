@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
-<!-- $Revision: 1.8 $ -->
-<!-- $Author: philip $ -->
-<!-- EN-Revision: 1.12 Maintainer: dallas Status: ready -->
+<!-- $Revision$ -->
+<!-- $Author$ -->
+<!-- EN-Revision: 283800 Maintainer: dallas Status: ready -->
 <appendix xml:id="array.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants.core;
