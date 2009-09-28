@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 283790 Maintainer: class007 Status: ready -->
+<!-- EN-Revision: 288721 Maintainer: class007 Status: ready -->
 
 <!-- DOCNOTE: some constants listed here are also there at
      reference/info/constants.xml. Further decision is needed
@@ -2217,7 +2217,7 @@ sgml-indent-step:1
 sgml-indent-data:t
 indent-tabs-mode:nil
 sgml-parent-document:nil
-sgml-default-dtd-file:"../../manual.ced"
+sgml-default-dtd-file:"~/.phpdoc/manual.ced"
 sgml-exposed-tags:nil
 sgml-local-catalogs:nil
 sgml-local-ecat-files:nil
