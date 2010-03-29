@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 288721 Maintainer: dallas Status: partial -->
+<!-- EN-Revision: 297028 Maintainer: dallas Status: partial -->
 <appendix xml:id="pgsql.constants" xmlns="http://docbook.org/ns/docbook">
  &reftitle.constants;
  &extension.constants;

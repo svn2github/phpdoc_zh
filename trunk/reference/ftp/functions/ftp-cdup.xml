@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="gb2312"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 288721 Maintainer: Avenger Status: ready -->
+<!-- EN-Revision: 297028 Maintainer: Avenger Status: ready -->
 <!-- CREDITS: dallas -->
 <refentry xml:id="function.ftp-cdup" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
