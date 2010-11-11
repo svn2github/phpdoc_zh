@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="gb2312"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
 <!-- EN-Revision: 297078 Maintainer: dallas Status: ready -->
@@ -31,7 +31,7 @@
  </variablelist>
  <note>
   <simpara>
-   <constant>PATH_SEPARATOR</constant> 是在 PHP 4.3.0-RC2 中引入。
+   <constant>PATH_SEPARATOR</constant> 鏄湪 PHP 4.3.0-RC2 涓紩鍏ャ��
   </simpara>
  </note>
 </appendix>
