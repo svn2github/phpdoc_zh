@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- $Author$ -->
+<!-- EN-Revision: 301953 Maintainer: HonestQiao Status: ready -->
+<!-- Reviewed: no Maintainer: HonestQiao -->
 <!-- $EN-Revision: 297078 $ -->
 
 <!--
@@ -19,7 +20,6 @@
  &internals2.faq.index;        FAQ
  &internals2.apiref.index;     full index of all APIs, constants, macros, etc.
  &internals2.ze1.index;        old docs, quick list of major differences, short discussion re: OOP
- &internals2.ze3.index;        quick discussion of major changes, some details on Unicode
 -->
 
  <preface xml:id="internals2.preface" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://docbook.org/ns/docbook">
