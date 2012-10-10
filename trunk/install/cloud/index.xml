@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 312448 Maintainer: anonymous #14421 Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 312448 Maintainer: daijie Status: ready -->
 
 <chapter xml:id="install.cloud" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>云计算平台上的安装</title>
