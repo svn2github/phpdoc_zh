@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
+<!-- EN-Revision: 307895 Maintainer: daijie Status: ready -->
 
 <part xml:id="pcre.pattern">
  <title>PCRE模式</title>
