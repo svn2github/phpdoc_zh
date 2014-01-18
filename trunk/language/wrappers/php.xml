@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326646 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 332635 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="wrappers.php" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -33,7 +33,7 @@
    </simpara>
   </refsect2>
 
-  <refsect2>
+  <refsect2 xml:id="wrappers.php.input">
    <title>php://input</title>
    <simpara>
     <filename>php://input</filename> 是个可以访问请求的原始数据的只读流。
