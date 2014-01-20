@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 329318 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 331062 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoclient.setreadpreference" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,6 +49,7 @@ $m->setReadPreference(MongoClient::RP_NEAREST, array(
     array('dc' => 'east', 'use' => 'reporting'),
     array('dc' => 'west'),
 ));
+?>
 ]]>
    </programlisting>
   </example>
