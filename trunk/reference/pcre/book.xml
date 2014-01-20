@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: daijie Status: ready -->
-<!-- Purpose: basic.text -->
-<!-- Membership: bundled -->
+<!-- EN-Revision: 330340 Maintainer: daijie Status: ready -->
 
 <book xml:id="book.pcre" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Regular Expressions (Perl-Compatible)</title>
+ <?phpdoc extension-membership="bundled" ?>
+ <title>正则表达式(兼容 Perl)</title>
  <titleabbrev>PCRE</titleabbrev>   
 
  <preface xml:id="intro.pcre">
