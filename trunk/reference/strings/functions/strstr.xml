@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
+<!-- EN-Revision: 323216 Maintainer: daijie Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.strstr">
  <refnamediv>
   <refname>strstr</refname>
