@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 332600 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.bzopen" xmlns="http://docbook.org/ns/docbook">
@@ -27,7 +27,7 @@
      <term><parameter>filename</parameter></term>
      <listitem>
       <para>
-       待打开的文件的文件名。
+       待打开的文件的文件名，或者已经存在的资源流。
       </para>
      </listitem>
     </varlistentry>

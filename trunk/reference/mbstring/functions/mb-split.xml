@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 288721 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 332259 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mb-split" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -64,7 +64,7 @@
  <refsect1 role="notes">
   &reftitle.notes;
   
-  &note.mbstring.encoding.internal;
+  &note.mbstring.encoding.current;
  </refsect1>
 
  <refsect1 role="seealso">

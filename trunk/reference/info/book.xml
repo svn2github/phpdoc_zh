@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326064 Maintainer: daijie Status: ready -->
-<!-- Purpose: basic.php -->
-<!-- Membership: core -->
+<!-- EN-Revision: 330340 Maintainer: daijie Status: ready -->
 
 <book xml:id="book.info" xmlns="http://docbook.org/ns/docbook">
+ <?phpdoc extension-membership="core" ?>
  <title>PHP 选项和信息</title>
  <titleabbrev>PHP 选项/信息</titleabbrev>
 

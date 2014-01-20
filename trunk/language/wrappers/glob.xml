@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 330316 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="wrappers.glob" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" role="noversion">
@@ -17,7 +17,7 @@
  </refsect1><!-- }}} -->
 
  <refsect1 role="usage"> <!-- {{{ -->
-  &reftitle.options;
+  &reftitle.usage;
   <itemizedlist>
    <listitem><simpara><filename>glob://</filename></simpara></listitem>
   </itemizedlist>

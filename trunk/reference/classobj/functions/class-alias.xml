@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 327930 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 331737 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.class-alias" xmlns="http://docbook.org/ns/docbook">
@@ -17,7 +17,7 @@
    <methodparam choice="opt"><type>bool</type><parameter>autoload</parameter><initializer>&true;</initializer></methodparam>
   </methodsynopsis>
   <para>
-   基于已定义的类 <parameter>original</parameter> 创建别名 <parameter>alias</parameter>。
+   基于用户定义的类 <parameter>original</parameter> 创建别名 <parameter>alias</parameter>。
    这个别名类和原有的类完全相同。
   </para>
  </refsect1>

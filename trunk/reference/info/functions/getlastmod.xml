@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: daijie Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 332085 Maintainer: daijie Status: ready -->
 
 <refentry xml:id="function.getlastmod" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -16,7 +15,7 @@
    <void/>
   </methodsynopsis>
   <para>
-   获取当前页面最后修改的时间。
+   获取执行的主脚本的最后修改时间。
   </para>
   <para>
    如果你对其他文件的最后修改时间的感兴趣，可考虑使用 <function>filemtime</function>。
