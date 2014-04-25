@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322545 Maintainer: 周梦康 Status: ready -->
+<!-- EN-Revision: 322545 Maintainer: zhoumengkang Status: ready -->
 <refentry xml:id="function.gethostbyaddr" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>gethostbyaddr</refname>
