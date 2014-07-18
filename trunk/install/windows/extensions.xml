@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 326480 Maintainer: dallas Status: ready -->
+<!-- EN-Revision: 334305 Maintainer: dallas Status: ready -->
 <!-- Reviewed: yes  -->
 <sect1 xml:id="install.windows.extensions" xmlns="http://docbook.org/ns/docbook">
  <title>Windows 下安装扩展库</title>
@@ -358,11 +358,6 @@ extension=php_bz2.dll
       <row>
        <entry>php_pgsql.dll</entry>
        <entry><link linkend="book.pgsql">PostgreSQL</link> 函数</entry>
-       <entry>无</entry>
-      </row>
-      <row>
-       <entry>php_printer.dll</entry>
-       <entry><link linkend="book.printer">Printer</link> 打印机函数</entry>
        <entry>无</entry>
       </row>
       <row>
