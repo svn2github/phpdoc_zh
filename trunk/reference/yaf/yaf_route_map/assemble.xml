@@ -2,7 +2,7 @@
 <!-- $Revision: $ -->
 <!-- EN-Revision: 320072 Maintainer: anonymous #47025 Status: ready -->
 <!-- Reviewed: no -->
-<refentry xml:id="yaf-assemble-map.assemble" xmlns="http://docbook.org/ns/docbook"
+<refentry xml:id="yaf-route-map.assemble" xmlns="http://docbook.org/ns/docbook"
           xmlns:xlink="http://www.w3.org/1999/xlink">
     <refnamediv>
         <refname>Yaf_Route_Map::assemble</refname>
