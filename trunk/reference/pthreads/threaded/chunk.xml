@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332045 Maintainer: Jade Yuan Status: ready -->
+<!-- EN-Revision: 332045 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="threaded.chunk" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Threaded::chunk</refname>
-  <refpurpose>Manipulation</refpurpose>
+  <refpurpose>操作</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">
