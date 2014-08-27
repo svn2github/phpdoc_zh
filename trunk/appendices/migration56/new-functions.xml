@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334403 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 334603 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration56.new-functions">
@@ -22,7 +22,19 @@
    </listitem>
   </itemizedlist>
  </sect2>
+ 
+ <sect2 xml:id="migration56.new-functions.hash">
+  <title><link linkend="book.hash">Hash</link></title>
 
+  <itemizedlist>
+   <listitem>
+    <simpara>
+     <function>hash_equals</function>
+    </simpara>
+   </listitem>
+  </itemizedlist>
+ </sect2>
+ 
  <sect2 xml:id="migration56.new-functions.ldap">
   <title><link linkend="book.ldap">LDAP</link></title>
 
@@ -93,7 +105,33 @@
    </listitem>
   </itemizedlist>
  </sect2>
+ <sect2 xml:id="migration56.new-functions.pgsql">
+  <title><link linkend="book.pgsql">PostgreSQL</link></title>
 
+  <itemizedlist>
+   <listitem>
+    <simpara>
+     <function>pg_connect_poll</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>pg_consume_input</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>pg_flush</function>
+    </simpara>
+   </listitem>
+   <listitem>
+    <simpara>
+     <function>pg_socket</function>
+    </simpara>
+   </listitem>
+  </itemizedlist>
+ </sect2>
+ 
  <sect2 xml:id="migration56.new-functions.zip">
   <title><link linkend="book.zip">Zip</link></title>
 
