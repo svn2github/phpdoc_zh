@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 327666 Maintainer: dallas Status: ready -->
+<!-- EN-Revision: 334762 Maintainer: dallas Status: ready -->
 <refentry xml:id="function.fnmatch" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>fnmatch</refname>
