@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 332297 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 333972 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mb-strlen" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -59,6 +59,8 @@
   <para>
    <simplelist>
     <member><function>mb_internal_encoding</function></member>
+    <member><function>grapheme_strlen</function></member>
+    <member><function>iconv_strlen</function></member>
     <member><function>strlen</function></member>
    </simplelist>
   </para>
