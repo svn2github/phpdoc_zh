@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: daijie Status: ready -->
-<!-- Reviewed: no -->
+<!-- EN-Revision: 340322 -->
  
 <book xml:id="book.bc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <?phpdoc extension-membership="bundled" ?>
@@ -12,7 +11,7 @@
  <preface xml:id="intro.bc">
   &reftitle.intro;
   <para>
-    对于任意精度的数学，PHP提供了支持用字符串表示的任意大小和精度的数字的二进制计算。
+    对于任意精度的数学，PHP提供了支持用字符串表示的任意大小和精度的数字的二进制计算，最多为2147483647-1（或0x7FFFFFFF-1）。
   </para>
  </preface>
  <!-- }}} -->
