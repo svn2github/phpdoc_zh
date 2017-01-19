@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 305999 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 337699 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.putenv" xmlns="http://docbook.org/ns/docbook">
@@ -87,6 +87,7 @@ putenv("UNIQID=$uniqid");
   <para>
    <simplelist>
     <member><function>getenv</function></member>
+    <member><function>apache_setenv</function></member>
    </simplelist>
   </para>
  </refsect1>
