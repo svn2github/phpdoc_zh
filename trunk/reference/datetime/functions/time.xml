@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 297028 Maintainer: HonestQiao Status: ready -->
+<!-- EN-Revision: 333770 Maintainer: HonestQiao Status: ready -->
 <!-- Reviewed: no Maintainer: HonestQiao -->
 <refentry xml:id="function.time" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
@@ -27,7 +27,7 @@
 <![CDATA[
 <?php
 $nextWeek = time() + (7 * 24 * 60 * 60);
-                   // 7 days; 24 hours; 60 mins; 60secs
+                   // 7 days; 24 hours; 60 mins; 60 secs
 echo 'Now:       '. date('Y-m-d') ."\n";
 echo 'Next Week: '. date('Y-m-d', $nextWeek) ."\n";
 // or using strtotime():
