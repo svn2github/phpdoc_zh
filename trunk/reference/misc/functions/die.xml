@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
+<!-- EN-Revision: 325214 Maintainer: daijie Status: ready -->
 <refentry xml:id="function.die" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>die</refname>
@@ -9,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <para>
-   语法结构等同于 <function>exit</function>.
+   语法结构等同于 <function>exit</function>。
   </para>
  </refsect1>
 
