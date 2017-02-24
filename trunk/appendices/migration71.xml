@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 339923 Maintainer: jhdxr Status: ready -->
+<!-- EN-Revision: 340973 Maintainer: jhdxr Status: ready -->
 <!-- Reviewed: no -->
 
 <appendix xml:id="migration71" xmlns="http://docbook.org/ns/docbook" xmlns:phd="http://www.php.net/ns/phd">
@@ -11,7 +11,10 @@
  &appendices.migration71.constants;
  &appendices.migration71.incompatible;
  &appendices.migration71.deprecated;
+ &appendices.migration71.changed-functions;
  &appendices.migration71.other-changes;
+ &appendices.migration71.windows-support;
+
 
  <sect1 phd:chunk="false" xml:id="migration71.intro">
   <para>
