@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334621 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338513 Maintainer: daijie Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.str-ireplace">
  <refnamediv>
   <refname>str_ireplace</refname>
@@ -90,6 +90,7 @@
 <![CDATA[
 <?php
 $bodytag = str_ireplace("%body%", "black", "<body text=%BODY%>");
+echo $bodytag; // <body text=black>
 ?>
 ]]>
     </programlisting>
