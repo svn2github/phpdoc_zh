@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 290424 Maintainer: dallas Status: ready -->
+<!-- EN-Revision: 331319 Maintainer: dallas Status: ready -->
 <!--
   Entities for the categorized extension list, so it does not need
   to be translated, and thus it is not going to be outdated.
