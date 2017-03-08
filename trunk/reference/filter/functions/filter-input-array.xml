@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330268 Maintainer:  Status: ready -->
+<!-- EN-Revision: 340641 Maintainer:  Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.filter-input-array" xmlns="http://docbook.org/ns/docbook">
@@ -120,20 +120,14 @@ echo "\n";
 <![CDATA[
 array(6) {
   ["product_id"]=>
-  array(1) {
-    [0]=>
-    string(17) "libgd%3Cscript%3E"
-  }
+  string(17) "libgd%3Cscript%3E"
   ["component"]=>
   array(1) {
     [0]=>
     int(10)
   }
   ["versions"]=>
-  array(1) {
-    [0]=>
-    string(6) "2.0.33"
-  }
+  string(6) "2.0.33"
   ["doesnotexist"]=>
   NULL
   ["testscalar"]=>
