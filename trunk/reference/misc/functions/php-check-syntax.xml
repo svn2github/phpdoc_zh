@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Revision$ -->
+<!-- EN-Revision: 334762 Maintainer:  Status: ready -->
 <refentry xml:id="function.php-check-syntax" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>php_check_syntax</refname>
