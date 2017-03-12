@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 317663 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoint32.construct" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -9,6 +9,15 @@
   <refpurpose>创建一个新的 32位 integer。</refpurpose>
  </refnamediv>
 
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.class.note;
+   <para>
+    作为替代，新扩展会根据 Integer 的值做合适的数据库类型选择。
+   </para>
+  </sidebar>
+ </refsynopsisdiv>
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
