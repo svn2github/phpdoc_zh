@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330678 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338152 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoclient.getconnections" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,6 +8,10 @@
   <refname>MongoClient::getConnections</refname>
   <refpurpose>返回所有已打开连接的信息</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  &mongo.noalternative.method.note;
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
