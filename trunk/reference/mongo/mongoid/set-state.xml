@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322196 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="mongoid.set-state" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,6 +8,12 @@
   <refname>MongoId::__set_state</refname>
   <refpurpose>创建一个假的 MongoId</refpurpose>
  </refnamediv>
+
+ <refsynopsisdiv role="soft-deprecation-notice">
+  <sidebar>
+   &mongo.noalternative.method.note;
+  </sidebar>
+ </refsynopsisdiv>
 
  <refsect1 role="description">
   &reftitle.description;
