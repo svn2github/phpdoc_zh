@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 330340 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338017 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 
 <book xml:id="book.mongo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>MongoDB</title>
+ <title>MongoDB 驱动（旧版）</title>
  <titleabbrev>Mongo</titleabbrev>
 
  &reference.mongo.setup;
- <!-- &reference.mongo.constants; -->
+ &reference.mongo.constants;
 
  &reference.mongo.manual;
  &reference.mongo.core;

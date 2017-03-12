@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 322123 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 338645 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <phpdoc:classref xml:id="class.mongoint64" xmlns:phpdoc="http://php.net/ns/phpdoc" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -9,6 +9,12 @@
  <titleabbrev>MongoInt64</titleabbrev>
 
  <partintro>
+  <warning>
+   &mongo.noalternative.class.note;
+   <para>
+    作为替代，新的扩展会根据 Integer 的值选择合适的数据库数据类型。
+   </para>
+  </warning>
 
 <!-- {{{ MongoInt64 intro -->
   <section xml:id="mongoint64.intro">
