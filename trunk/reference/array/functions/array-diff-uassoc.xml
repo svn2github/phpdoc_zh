@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324122 Maintainer: HonestQiao Status: ready -->
-<!-- Reviewed: no Maintainer: HonestQiao -->
+<!-- EN-Revision: 341274 Maintainer: HonestQiao Status: ready -->
 <refentry xml:id="function.array-diff-uassoc" xmlns="http://docbook.org/ns/docbook">
  <refnamediv>
   <refname>array_diff_uassoc</refname>
