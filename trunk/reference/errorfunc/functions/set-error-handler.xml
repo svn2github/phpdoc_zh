@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341674 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 342126 Maintainer: daijie Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.set-error-handler" xmlns="http://docbook.org/ns/docbook">
@@ -117,6 +117,12 @@
            会包含错误触发处作用域内所有变量的数组。
            用户的错误处理程序不应该修改错误上下文（context）。
           </simpara>
+          <warning xmlns="http://docbook.org/ns/docbook">
+           <simpara>
+            PHP 7.2.0 后此参数被<emphasis>弃用</emphasis>了。
+            极其不建议依赖它。
+           </simpara>
+          </warning>
          </listitem>
         </varlistentry>
        </variablelist>
@@ -165,6 +171,13 @@
       </row>
      </thead>
      <tbody>
+      <row>
+       <entry>7.2.0</entry>
+       <entry>
+        <parameter>errcontext</parameter> 被废弃。
+        使用此参数时会导致 <constant>E_DEPRECATED</constant> 提醒。
+       </entry>
+      </row>
       <row>
        <entry>5.5.0</entry>
        <entry>
