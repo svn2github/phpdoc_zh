@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 336885 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="threaded.synchronized" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  <refnamediv>
   <refname>Threaded::synchronized</refname>
-  <refpurpose>Synchronization</refpurpose>
+  <refpurpose>同步控制</refpurpose>
  </refnamediv>
 
  <refsect1 role="description">

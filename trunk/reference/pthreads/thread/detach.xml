@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 334955 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 341639 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="thread.detach" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -8,7 +8,15 @@
   <refname>Thread::detach</refname>
   <refpurpose>执行</refpurpose>
  </refnamediv>
-
+ 
+ <refsynopsisdiv>
+  <warning>
+   <para>
+    pthreads v3 中已经移除此方法.
+   </para>
+  </warning>
+ </refsynopsisdiv>
+ 
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
