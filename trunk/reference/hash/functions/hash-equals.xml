@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 335150 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 342644 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.hash-equals" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -66,7 +66,7 @@
   &reftitle.examples;
   <para>
    <example xml:id="foobar.examples.basic">
-    <title><methodname></methodname> 例程</title>
+    <title><function>hash_equals</function> 例程</title>
     <programlisting role="php">
 <![CDATA[
 <?php
