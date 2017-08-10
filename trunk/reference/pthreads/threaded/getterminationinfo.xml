@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341639 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 342789 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="threaded.getterminationinfo" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -13,6 +13,8 @@
   <warning>
    <para>
     pthreads v3 中已移除此方法。
+    另外，<methodname>Threaded::run</methodname> 中的代码，
+    应该使用 try...catch 来进行异常检测（因为在 PHP 7 中大部分 error 都改为抛出异常的方式了）。
    </para>
   </warning>
  </refsynopsisdiv>
