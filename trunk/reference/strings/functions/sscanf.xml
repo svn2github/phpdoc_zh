@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 324696 Maintainer: daijie  Status: ready -->
+<!-- EN-Revision: 342425 Maintainer: daijie  Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.sscanf" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -61,7 +61,10 @@
          <literal>i</literal> stands for integer with base detection.
         </member>
         <member>
-         <literal>n</literal> stands for number of characters processed so far.
+         <literal>n</literal> 代表目前已经处理的字符数。
+        </member>
+        <member>
+         <literal>s</literal> 遇到任意空格字符时停止读取。
         </member>
        </simplelist>
       </para>
