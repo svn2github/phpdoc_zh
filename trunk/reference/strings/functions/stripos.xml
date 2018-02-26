@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 340032 Maintainer: daijie Status: ready -->
+<!-- EN-Revision: 343898 Maintainer: daijie Status: ready -->
 <refentry xmlns="http://docbook.org/ns/docbook" xml:id="function.stripos">
  <refnamediv>
   <refname>stripos</refname>
@@ -10,7 +10,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <type>mixed</type><methodname>stripos</methodname>
+   <type>int</type><methodname>stripos</methodname>
    <methodparam><type>string</type><parameter>haystack</parameter></methodparam>
    <methodparam><type>string</type><parameter>needle</parameter></methodparam>
    <methodparam choice="opt"><type>int</type><parameter>offset</parameter><initializer>0</initializer></methodparam>
