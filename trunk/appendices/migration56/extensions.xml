@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 337728 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 344879 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <sect1 xml:id="migration56.extensions">
@@ -97,7 +97,7 @@
   <title><link linkend="book.mysqli">MySQLi</link></title>
   <para>
   新加 <link linkend="ini.mysqli.rollback-on-cached-plink">mysqli.rollback_on_cached_plink</link>
-   选项，对于事物回滚的连接，将其返回到持久连接池中。
+   选项，对于事务回滚的连接，将其返回到持久连接池中。
   </para>
  </sect2>
  <!-- TODO: anything since alpha 1 -->

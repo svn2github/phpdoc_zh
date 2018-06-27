@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 342107 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 343899 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.hash" xmlns="http://docbook.org/ns/docbook">
@@ -14,7 +14,7 @@
    <type>string</type><methodname>hash</methodname>
    <methodparam><type>string</type><parameter>algo</parameter></methodparam>
    <methodparam><type>string</type><parameter>data</parameter></methodparam>
-   <methodparam choice="opt"><type>bool</type><parameter>raw_output</parameter><initializer>false</initializer></methodparam>
+   <methodparam choice="opt"><type>bool</type><parameter>raw_output</parameter><initializer>&false;</initializer></methodparam>
   </methodsynopsis>
 
  </refsect1>
