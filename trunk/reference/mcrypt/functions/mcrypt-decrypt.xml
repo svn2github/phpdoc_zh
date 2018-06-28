@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341620 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 343532 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="function.mcrypt-decrypt" xmlns="http://docbook.org/ns/docbook">
@@ -9,7 +9,7 @@
   <refpurpose>使用给定参数解密密文</refpurpose>
  </refnamediv>
  <refsynopsisdiv>
-  &warn.deprecated.function-7-1-0;
+  &warn.deprecated.function-7-1-0.removed-7-2-0;
  </refsynopsisdiv>
  <refsect1 role="description">
   &reftitle.description;
