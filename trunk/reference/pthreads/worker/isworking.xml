@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341654 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 343889 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="worker.isworking" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -22,7 +22,7 @@
  <refsect1 role="description">
   &reftitle.description;
   <methodsynopsis>
-   <modifier>public</modifier> <type>boolean</type><methodname>Worker::isWorking</methodname>
+   <modifier>public</modifier> <type>bool</type><methodname>Worker::isWorking</methodname>
    <void />
   </methodsynopsis>
   <para>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
-<!-- EN-Revision: 341639 Maintainer: yuanyuqiang Status: ready -->
+<!-- EN-Revision: 343894 Maintainer: yuanyuqiang Status: ready -->
 <!-- Reviewed: no -->
 
 <refentry xml:id="cond.broadcast" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -23,10 +23,10 @@
    <modifier>final</modifier> 
    <modifier>public</modifier> 
    <modifier>static</modifier> 
-   <type>boolean</type>
+   <type>bool</type>
    <methodname>Cond::broadcast</methodname>
    <methodparam>
- <type>long</type>
+ <type>int</type>
  <parameter>condition</parameter>
   </methodparam>
   </methodsynopsis>
